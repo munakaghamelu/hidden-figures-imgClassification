@@ -30,7 +30,7 @@ data_transforms_with_normalization = {
     ]),
 }
 
-classes = ['mary', 'dorothy', 'katherine']
+classes = ['dorothy', 'katherine', 'mary']
 path = Path(__file__).parent
 
 app = Starlette()
